@@ -1,0 +1,6 @@
+<% if(user) { %> 
+    <p>Hello <%= user.displayName %></p>
+<% } else { %>
+    <a href="/auth/github">Login in with github</a>
+<% } %> 
+ 
